@@ -37,9 +37,9 @@ const getDataForList = () => {
     }"></span>
     <span style="display:${
       item.isChange ? "none" : "inline-block"
-    }"  data-id ="${item.id}" style='text-decoration:${
-      item.isDone ? "line-through" : "none"
-    }'  class="content__list-item-text"> ${item.text}</span>
+    } ;text-decoration:${item.isDone ? "line-through" : "none"}"  data-id ="${
+      item.id
+    }"   class="content__list-item-text"> ${item.text}</span>
     <input style="display:${
       item.isChange ? "inline-block" : "none"
     }"  class='content__list-item-input' type='text' value = '${item.text}'
