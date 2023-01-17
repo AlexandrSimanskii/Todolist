@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./main.css" />
+    <link rel="stylesheet" href="src/fontello/css/fontello.css" />
+  </head>
+  <body>
+    <div class="todo">
+      <h1 class="todo__title">todolist</h1>
+      <form class="form" action="">
+        <span class="form__icon icon-clipboard"></span>
+        <input
+          required
+          placeholder="Enter your next task"
+          class="form__field"
+          type="text"
+        />
+        <button class="form__btn" type="submit">
+          <span class="icon-plus-circled"></span>
+        </button>
+        <span class="form__spiner icon-spin3"></span>
+      </form>
+      <div class="content">
+        <div class="content__top">
+          <span class="content__icon icon-list-add"></span>
+          <div class="content__btns">
+            <button class="content__btn content__btn-importan" type="button">
+              Importan
+            </button>
+            <button class="content__btn content__btn-done" type="button">
+              Done
+            </button>
+            <button class="content__btn content__btn-all" type="button">
+              All
+            </button>
+          </div>
+        </div>
+        <ul class="content__list"></ul>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
