@@ -111,4 +111,8 @@ input:not(:placeholder-shown) + .form__btn {
 }
 .delete {
   display: none;
-} /*# sourceMappingURL=main.css.map */
+}
+
+.active {
+  background-color: aqua;
+}/*# sourceMappingURL=main.css.map */

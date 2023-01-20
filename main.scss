@@ -112,3 +112,6 @@ input:not(:placeholder-shown) + .form__btn {
 .delete {
   display: none;
 }
+.active {
+  background-color: aqua;
+}
